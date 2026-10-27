@@ -58,6 +58,14 @@ public class EmployerProfile extends User{
         this.website = website;
     }
 
+    public Set<Job> getJobs() {
+        return jobs;
+    }
+
+    public void setJobs(Set<Job> jobs) {
+        this.jobs = jobs;
+    }
+
     @Override
     public String toString() {
         return "EmployerProfile{" +
